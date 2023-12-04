@@ -1,7 +1,9 @@
 // main is a simple package with only one function, the function prints the dog years of one human year
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println(Years(5))
